@@ -1,0 +1,107 @@
+//page6
+
+
+
+let numberOfDogs = 6 + 2
+let numberOfPigs = 2-1
+let numberOfCats = 5 - 1
+let numberOffish = 2-1
+let numberOfTurtles = 2 + 1
+let numberOfSnakes = 1*1
+let numberOfHamsters = 1 + 1
+
+let totalNumberOfAnimals = numberOfDogs + numberOfCats + numberOfTurtles + numberOfHamsters + numberOfPigs + numberOffish + numberOfSnakes
+
+let totalNumberOfMammals = numberOfDogs + numberOfCats + numberOfHamsters + numberOfPigs
+//page 10
+// Number Of Tickets
+150
+
+// Ticket Price
+10
+
+// Room Rental Fee
+1000
+
+// Poster Cost
+40
+
+// Total Ticket Value
+150 * 10
+
+// Total Expenses
+1000 + 40
+
+// Total Income Of Show
+(150 * 10) - (1000 + 40)
+/*:
+ - callout(Exercise): Using the code above as a reference, use `let` statements to define constants to better solve your friend’s problem.\
+Add your code below. To help you get started, the constant `numberOfTickets` is already defined.
+ */
+let numberOfTickets = 150
+let ticketPrice = 10
+let roomRentalFee = 1000
+let posterCost = 40
+let totalTicketValue = numberOfTickets * ticketPrice
+let totalexpenses = roomRentalFee + posterCost
+let totalIncomeOfShow = totalTicketValue - totalexpenses
+
+//page 11
+
+
+
+let ticketsSold = 1000
+let ticketPrice = 3
+let printingCosts = 20
+let advertising = 50
+let totalTakings = ticketPrice * ticketsSold
+
+// Jackpot
+let jackpot = totalTakings / 2
+
+// Expenses
+let totalExpenses = printingCosts + advertising
+
+// Profit
+let profit = totalTakings - jackpot - totalExpenses
+
+// Distribution
+let programmersCut = profit / 10 // This is the answer you want to get > 100! 👉 
+let friendsCut = profit - programmersCut
+
+
+
+//page 12
+
+
+8000 - 3000
+5000 / 150 = 33
+
+
+
+//page13
+
+
+let shower = 15
+let chooseClothes = 3
+let getdressed = 7
+let eat = 15
+let packBag = 3
+shower + chooseClothes + getdressed + eat + packBag
+
+
+//page14
+
+
+
+let oc = 28
+let wc = 6
+let ow = 200
+let ww = 300
+let to = oc * ow
+let tw = wc * ww
+let ttl = to + tw
+let es = ttl / 2
+let lhso = es / ow
+let rhso = oc - lhso
+
