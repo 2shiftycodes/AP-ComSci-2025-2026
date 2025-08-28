@@ -1,0 +1,36 @@
+//page 3
+
+
+numberOfAnts = 67
+antSpeed = 800
+
+//page 4
+
+
+environmentCellSize = 10
+numberOfAnts = 253
+pheromoneEvaporationRate = 50
+pheromoneDepositRate = 302
+
+
+//page 5
+
+homePheromoneDepositRate = 200
+foodPheromoneDepositRate = 200
+homePheromoneEvaporationRate = 100
+foodPheromoneEvaporationRate = 100
+
+environmentCellSize = 20
+numberOfAnts = 200
+
+numberOfAnts = 40
+antSpeed = 300
+
+//page 6
+//1. The ants behavior was pretty speratic if the pheromones evaporated qick. I noticed that the ants decided to follow the food pheromones more than the other ones.
+//2. I found that lower pheromone evaporation and higher home and food pheromones deposite reate creates more productive ants, and a steady speed produced a more organized colony.
+//3. If the environment cell size was altered by 10 to 15 there was a large visible change in the simulation
+//4. The peramiteres are related in a way that if you decrese any value decrease the rest of the numbers in the simulation by the same pecentage of the said value decreased.
+//5. The most sucessful foraging behaviors were ones with a fairly high ant population and high food and home pheromone deposite rate.
+//6. If i wanted to make this model more real world i would add preditors like, grasshopers, roach, ant-eaters etc.
+//7. None
