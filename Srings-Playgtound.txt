@@ -1,0 +1,113 @@
+//page 5
+print("testing, one two three")
+print("testing,four five six")
+
+//page 6
+let firstName = "Vincent"
+
+let lastName = "Warsaw"
+
+let fullName = firstName + " " + lastName
+
+let finishedMessage2 = fullName + " " + likesYourPostMessage
+
+
+//page 8
+// Change this to your favorite food
+let favoriteFood = "pie"
+
+// Change this to why you like it
+let reason = "tasty"
+
+// Define a string below in the pattern "I like ___ because it is ___."
+let myFavoriteFood = "I like \(favoriteFood) because it is \(reason)"
+
+//page 10
+// Add your version of the story below
+let name = "Waldavious"
+let number = "67"
+let adjective = "big bag of"
+let noun = "nuts"
+let noun2 = "blackmarket"
+let place = "underground store"
+let positiveEmotion = "exuberantly indubitable"
+let negativeEmotion = "malecly exasperated"
+let finishedStory = "Today was a big day for \(name). They had finally saved up \(number) dollars and were going to buy a \(adjective) \(noun).
+They went to the \(noun2) \(place) feeling very \(positiveEmotion). But then they felt \(negativeEmotion) \(noun)"
+
+//page 14
+let constants = "Declaring string constants"
+let unicode = "Unicode characters (😎)"
+let combining = "Combining strings using +"
+let interpolation = "String interpolation (aka Fill in the Blanks)"
+let escaping = "Escape characters for \"special powers\""
+let newline = "Making new lines"
+
+//page 15
+let customerOrderOne = "fish"
+let customerOrderTwo = "risotto"
+let customerOrderThree = "soup"
+
+let serverResponseToTableOne = "Let me make sure I've got this right: fish, risotto, and soup. Is that everything?"
+
+let tableOneResponse = "Yes, thank you!"
+
+/*:
+### Later that day:
+ 
+ 
+ Three other guests enter and place their orders:
+ */
+ 
+let customerOrderFour = "돌솥비빔밥"
+let customerOrderFive = "Pasztecik szczeciński"
+let customerOrderSix = "小笼包"
+
+let serverResponseToTableTwo = "Let me make sure I've got this right: <risotto>"
+
+let tableTwoResponse = "Perfect, merci bien."
+
+//page 16
+
+let schoolName = "YOUR SCHOOL NAME"
+let refrain = "hmm hmm HMMM hm-hmm \(schoolName) hmm hmm HMMMMM"
+
+let song = "\(refrain)\n\(refrain)\nYes, \(refrain)"
+
+//page 17
+8000 - 3000
+5000 / 150 = 33
+
+//page 18
+"Hello, world!"
+print("Hello, world!")
+//: Numbers and calculations:
+8
+print(8)
+7 + 11
+print(7 + 11)
+//: String expressions:
+"Have you seen" + "..." + "nevermind."
+print("Have you seen" + "..." + "nevermind.")
+//: Constants:
+let authorName = "Beatrix Potter"
+print(authorName)
+let bookTitle = "Jemima Puddleduck"
+print(bookTitle)
+//: Variables (you'll learn about these in the next lesson):
+var favoriteCookie = "chocolate chip"
+print("My favorite type of cookie is \(favoriteCookie).")
+favoriteCookie = "double chocolate chip"
+print("Wait! I forgot about \(favoriteCookie). That one is even better.")
+/*:
+ The result of whatever’s inside the parentheses will appear in the console.
+
+ - Experiment: Look for the following statements in the results sidebar, then make each statement print to the console, following the example.\
+Before:\
+`authorName`\
+After:\
+`print(authorName)`
+ */
+authorName
+"authorName"
+"Did you know that \(bookTitle) was written by \(authorName)?"
