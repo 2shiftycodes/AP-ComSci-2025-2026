@@ -35,6 +35,22 @@ let negativeEmotion = "malecly exasperated"
 let finishedStory = "Today was a big day for \(name). They had finally saved up \(number) dollars and were going to buy a \(adjective) \(noun).
 They went to the \(noun2) \(place) feeling very \(positiveEmotion). But then they felt \(negativeEmotion) \(noun)"
 
+
+
+//page 12
+// The backslash followed by a quotation mark is an escape sequence.
+let favoriteQuotation = "Hamlet said, \"To be, or not to be?\""
+
+// Another escape sequence is the placeholder in an interpolated string.
+let flavor = "chocolate"
+let iceCreamAnnouncement = "The flavor of the day is \(flavor)"
+/*:
+Some escape sequences in Swift let you insert invisible characters. One that you’ll use often is the _newline_ character. As you might guess from the name, this character makes the text skip to a new line.
+
+The escape sequence for a newline is the backslash character followed by the letter “n”:
+ */
+let startOfAPoem = "Roses are red.\nViolets are blue."
+
 //page 14
 let constants = "Declaring string constants"
 let unicode = "Unicode characters (😎)"
