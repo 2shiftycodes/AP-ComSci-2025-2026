@@ -45,3 +45,61 @@ score
 score = score + 5
 score = score + 3
 score = score + score
+1/page 5
+let playerScore = 0:
+playerscore += 2;
+11 Add points
+let welcomeMessage = "*
+nelcomeMessage •= "HI":
+welcomeMessage se "
+wolcomeMessage +m "Univorsol*?
+Raw
+回
+const parti = Learning*:
+const part2 = *to*:
+const parts = "code":
+const part4 = rocks*:
+const oap
+let fullSentence = "*
+TullSentence += part1;
+let multiplier = 1:
+let multiplier = 1:
+// page 7
+lot nicknamo = *Saitmy**
+nicknane = "Sanny": // Reassioned same value
+//page 9
+Let questDrinkPreferenco a "Juice""
+goToStore():
+purchaseJuicer ():
+questorinxpreference a smoothie
+LocateFruitBasket():
+questDrinkPreference = *water;
+gues tDrinkPreference = sparkling lenonade*:
+guestDrinkPreference = plain soda*;
+buyfreshFruits();
+assembleJuicer():
+guestDrinkPreference = "none 💤"
+blendFruits()
+serveDrinkToGuest ();
+//page 10
+const pointsGreen = 5;
+let pointsRed - 10:
+const pointsGold = 20;
+let alexScore = 0:
+let taylorScore = 0:
+11 Round 1
+alexScore += pointsRed: alexScore += pointsGreen; alexScore += pointsGold;
+// Round 2
+taylorscore += pointsRed; pointsRed +a pointsGreen; taylorscore += points0o.d;
+// Round 3
+alexScore + pointsRed; alexScore +a pointsGreen: alexScore += pointsGold;
+Il Round 4
+taylorScore += pointsked; taylorScore += pointsGreen: taylorScore a pointsGold;
+taylorscore; alexScore:
+page.
+cons apples = "Apples";
+const yogurt = "Yogurt";
+const butter = "Butter";
+const pasta = "Pasta";
+const quinoa = Quinoa"
+const lineBreak = *In*:
