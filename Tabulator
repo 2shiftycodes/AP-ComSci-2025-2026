@@ -1,0 +1,80 @@
+for value in tabulator.values {
+printI"\(value): \(tabulator.coun:(forValue; value))")
+}
+var tabulator = Tabulator()
+
+for show in randomShowData (
+tabulator. incrementCount (forValue: show)
+}
+for show in showcataloq (
+let count = tabulator.count(forvalue: show)
+print ("\(show): \(count) ")
+}
+var tabulator = tabulator()
+
+for show in surveyData {
+tabulator.incrementCount (forValue: show)
+}
+for value in tabulator.values (
+print/"\(value): (\tabulator.count(forValue: value))")
+}
+print("\n***** DATA ERRORS *****\n")
+var errorcount = 0
+for value in tabulator.values ( wIshowcataog.containsvalue) i
+errorCount += 1
+print ("\(value): \/tabulator.count (forValue: value)) ")
+print(" InTotal errors: \errorCount)")
+print/"\n*****
+SECOND CLEANING PASS *****\n")
+print ("\n***** TABULATION FOR VALID DATA *****\n"}
+var tabulator - Tabulator()
+var lowercaseCatalog: [String] = (]
+for show in showcatalog (
+lowercaseCatalog.append show.lovercased())
+for raw in surveyData !
+let cleaned - raw. Lowercased)
+tabulator, incremen:Count (forValue: cleaned)
+for value in tabulator. values (
+if lowercaseCatalog.containa(valuel
+print(" (valuel:(tabulator.count (forValue: value))"
+prince Nortan DATA ERRORS AMANIN
+var errorcouns - 0
+for value in tabulator-values (
+LE(lovecoaseCacalog.conteins(value)(
+errorCount t-
+PEIDE (" (valuel: \(tabulator. count (Forfalue: value)) =)
+print inTotal errors: N(errorCount)")
+print tealtDistance (from: "Corm", to:
+BrintreditDistance|from: "cake", tO:
+"bake"))
+princeditbistance from: "Ersends", to: "slesda")
+SELagLasescratchifor value; String, from potentlalkatches: (string) →
+var beatlistance =Int.max
+var beatindex = 0
+for in 0. spotentialMatches.count/
+let candidate
+potential/atches /i
+let d - editDistance (from: value, to: candidatel
+if d ‹ bestbiscance /
+bestDistance - d bestindex - 1
+return potentialMatches(bestIndex
+• print("\o***** THIRD CLEANING PASS (SPELLING FIX) *****\n")
+print ("\o***** TABILATION FOR VALID DATA *****\n")
+var tabulator = Cabulator)
+var lovercaseCatalog: [String)-( for show in showcatalog (
+TowercaseCetalog.appendishow. lowercased (f
+var errorCount = 0
+for raw in surveyData /
+let cleaned = raw.Lowercased()
+if lowercaseCatalog,contains(cleaned)
+tabulator, incrementCount forValue: cleaned)
+euse
+let corrected - closestMaton (fos: cleaned, from: lowercasecatalog)
+tabulator. incrementCouns (forValue: corrected)
+errorCount --
+for show in lovercaseCatalog l
+let count - tabulator.count (forValue: show)
+if count > 0 l
+print ["1 (show): \(count) ")
+Print ("\ANT*** DATA ERRORS (EIXED) A***\n")
+brine/"total correctiona made? (errorcoune) "
