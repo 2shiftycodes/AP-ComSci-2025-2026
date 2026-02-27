@@ -1,91 +1,146 @@
+//page2
 for value in tabulator.values {
-printI"\(value): \(tabulator.coun:(forValue; value))")
+print(value)
+print(tabulator.count(forValue: value))
 }
+//page3
+// Create a Tabulator instance.
 var tabulator = Tabulator()
-
-for show in randomShowData (
-tabulator. incrementCount (forValue: show)
+// Loop through the shows in randomShowData, incrementing the count for
+each one.
+for show in randomShowData{
+tabulator.incrementCount(forValue: show)
 }
-for show in showcataloq (
-let count = tabulator.count(forvalue: show)
-print ("\(show): \(count) ")
+// Loop through the tallied shows (stored in tabulator.values), printing
+the information from each one.
+for show in tabulator.values{
+tabulator.incrementCount(forValue: show)
+print(show)
+print(tabulator.count(forValue:show))
 }
-var tabulator = tabulator()
-
+//page4
+// Create a Tabulator instance.
+var tabulator = Tabulator()
+// Loop through surveyData, incrementing the count for each response.
 for show in surveyData {
-tabulator.incrementCount (forValue: show)
+tabulator.incrementCount(forValue: show)
 }
-for value in tabulator.values (
-print/"\(value): (\tabulator.count(forValue: value))")
+// Loop through the tallied shows (stored in tabulator.values), printing
+the information from each one.
+for show in tabulator.values{
+print("The show '\(show)': has a count of \(tabulator.count(forValue:
+show))")
 }
-print("\n***** DATA ERRORS *****\n")
-var errorcount = 0
-{
-if !showCatalog.contains (value)(
-errorCount += 1|
-print ("\(value): \(tabulator.count (forValue: value)) ")
-   }
+showCatalog
+print("\n\n***** FIRST CLEANING PASS *****\n\n")
+// Print a header
+print("\n\n***** TABULATION FOR VALID DATA ******\n\n")
+// Loop through all tabulator values. Only print the count for those that
+are contained in showCatalog.
+for show in tabulator.values {
+if showCatalog.contains(show){
+print("\(show):\(tabulator.count(forValue: show))")
 }
-
-print("\nTotal errors: \errorCount)")
-print/"\n***** SECOND CLEANING PASS *****\n")
-print ("\n***** TABULATION FOR VALID DATA *****\n"}
-
-var tabulator - Tabulator()
-
-var lowercaseCatalog: [String] = []
-for show in showcatalog {
-lowercaseCatalog.append (show.lovercased())
-for raw in surveyData {
-let cleaned = raw.lowercased()
-tabulator.incrementCount (forValue: cleaned)
 }
-
-for value in tabulator.values {
-if lowercaseCatalog.contains(value) {
-print(" (valuel:(tabulator.count (forValue: value))")
-}
-
-
-
-prince Nortan DATA ERRORS AMANIN
-var errorcouns - 0
-for value in tabulator-values (
-LE(lovecoaseCacalog.conteins(value)(
-errorCount t-
-PEIDE (" (valuel: \(tabulator. count (Forfalue: value)) =)
-print inTotal errors: N(errorCount)")
-print tealtDistance (from: "Corm", to:
-BrintreditDistance|from: "cake", tO:
-"bake"))
-princeditbistance from: "Ersends", to: "slesda")
-SELagLasescratchifor value; String, from potentlalkatches: (string) →
-var beatlistance =Int.max
-var beatindex = 0
-for in 0. spotentialMatches.count/
-let candidate
-potential/atches /i
-let d - editDistance (from: value, to: candidatel
-if d ‹ bestbiscance /
-bestDistance - d bestindex - 1
-return potentialMatches(bestIndex
-• print("\o***** THIRD CLEANING PASS (SPELLING FIX) *****\n")
-print ("\o***** TABILATION FOR VALID DATA *****\n")
-var tabulator = Cabulator)
-var lovercaseCatalog: [String)-( for show in showcatalog (
-TowercaseCetalog.appendishow. lowercased (f
+// Create a variable to keep a count of the errors.
 var errorCount = 0
-for raw in surveyData /
-let cleaned = raw.Lowercased()
-if lowercaseCatalog,contains(cleaned)
-tabulator, incrementCount forValue: cleaned)
-euse
-let corrected - closestMaton (fos: cleaned, from: lowercasecatalog)
-tabulator. incrementCouns (forValue: corrected)
-errorCount --
-for show in lovercaseCatalog l
-let count - tabulator.count (forValue: show)
-if count > 0 l
-print ["1 (show): \(count) ")
-Print ("\ANT*** DATA ERRORS (EIXED) A***\n")
-brine/"total correctiona made? (errorcoune) "
+// Print a header
+print("\n\n***** DATA ERRORS ******\n\n")
+// Loop through all tabulator values.
+// If a value is not contained in showCatalog:
+// - Increase the error count
+// - Print it
+for show in tabulator.values{
+if !showCatalog.contains(show){
+errorCount += 1
+print(show)
+}
+}
+// Print the error count.
+print(errorCount)
+//page5
+// Make a new array variable.
+var lowercaseCatalog: [String] = []
+// For all shows in showCatalog, add a lowercase version to the array.
+for show in showCatalog {
+lowercaseCatalog.append(show.lowercased())
+}
+print("\n\n***** SECOND CLEANING PASS *****\n\n")
+// Print a header
+print("\n\n***** TABULATION FOR VALID DATA ******\n\n")
+// Create a Tabulator instance.
+var tabulator = Tabulator()
+// Loop through surveyData. Make a lowercase version of each value, then
+increment its count.
+for show in surveyData {
+tabulator.incrementCount(forValue: show.lowercased())
+}
+// Loop through all tabulator values. Print only those that are contained
+in the lowercase version of the show catalog.
+for show in tabulator.values {
+if lowercaseCatalog.contains(show) {
+print("\(show): \(tabulator.count(forValue: show))")
+}
+}
+// Print a header
+print("\n\n***** DATA ERRORS ******\n\n")
+// Create a variable to keep a count of the errors.
+var errorCount = 0
+// Loop through all tabulator values.
+for show in tabulator.values {
+if !lowercaseCatalog.contains(show){
+errorCount += 1
+print(show)
+}
+}
+// If a value is not contained in the lowercase show catalog:
+// - Increase the error count
+// - Print it
+// Print the error count.
+print(errorCount)
+//page6
+editDistance(from: "cat", to: "cake") //2
+editDistance(from: "Xoch", to: "Chas") //4
+editDistance(from: "radio", to: "head") //5
+//page 7
+// The lowercase version of the show catalog has already been created.
+lowercaseCatalog
+print("\n\n***** THIRD CLEANING PASS *****\n\n")
+// Print a header
+print("\n\n***** TABULATION FOR VALID DATA ******\n\n")
+// Create a Tabulator instance.
+var tabulator = Tabulator()
+// Loop through surveyData. Make a lowercase version of each value.
+for show in surveyData{
+let lowercasedShow = show.lowercased()
+// - If the catalog contains the value, increment its count.
+if lowercaseCatalog.contains(lowercasedShow) {
+// - Otherwise, find the closest match for the value and
+increment the count for that.
+tabulator.incrementCount(forValue: lowercasedShow)
+}else{
+// Loop through all tabulator values. Print only those that are
+contained in the lowercase version of the show catalog.
+let correctedShow = closestMatch(for: lowercasedShow, from:
+lowercaseCatalog)
+tabulator.incrementCount(forValue: correctedShow)
+print("Corrected '\(lowercasedShow)' to '\(correctedShow)")
+}
+}
+// Print a header
+print("\n\n***** DATA ERRORS ******\n\n")
+// Create a variable to keep a count of the errors.
+var errorCount = 0
+// Loop through all tabulator values.
+for show in surveyData{
+let lowercasedShow = show.lowercased()
+}
+// If a value is not contained in the lowercase show catalog:
+if !lowercaseCatalog.contains (lowercasedShow) {
+// - Increase the error count
+errorCount += 1
+// - Print it
+let correction = closestMatch(for: lowercasedShow, from:
+lowercaseCatalog)
+}
+print("Error: '\(show)' was corrected to '\(correction)")
