@@ -144,3 +144,6 @@ let correction = closestMatch(for: lowercasedShow, from:
 lowercaseCatalog)
 }
 print("Error: '\(show)' was corrected to '\(correction)")
+// Print the error count.
+print("\nTotal errors found and corrected: \(errorCount)")
+}
